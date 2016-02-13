@@ -359,7 +359,7 @@ def encounter():
 			inv['snake skin'] = 1
 			print inv
 	
-encounter()
+
 
 		
 def over_world():
@@ -394,8 +394,9 @@ def main_command():
 		
 		
 
-	
-	
+NPC()
+shop1()
+encounter()
 
 	
 
