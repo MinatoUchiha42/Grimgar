@@ -395,7 +395,7 @@ def main_command():
 		
 
 NPC()
-shop1()
+over_world()
 encounter()
 
 	
