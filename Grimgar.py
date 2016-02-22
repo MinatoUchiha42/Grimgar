@@ -7,7 +7,7 @@ global map
 map = []
 		
 global gold
-gold = 0
+gold = 999
 
 def gamestart():
 	global x
@@ -25,7 +25,7 @@ def gamestart():
 gamestart()
 			
 global inv
-inv = {'wood':4, 'feather':8, 'stone':5, 'dagger':7}
+inv = {'wood':4, 'feather':8, 'stone':5, 'dagger':7, 'cheese':4 }
 
 class char():
 	def mainchar(self, hp, atk):
@@ -54,6 +54,299 @@ class enemy():
 		print 'hp: ', hpe
 		print 'atk: ', atke
 		
+def quest2():
+	global gold
+	print 'there is a '
+		
+def quest1():
+	global gold
+	print 'i need you to find my necklace, its an ancient familt heirloom'
+	x = raw_input('accept quest? ')
+	if x == 'y':
+		q = True
+		while q == True:
+			print 'find jeffs necklace'
+			break
+		if 'necklace' in inv:
+			q = False
+	if q == False:
+		print 'quest completed'
+		inv['necklace'] -= 1
+		print 'inv: ', inv
+		gold += 150
+		
+		
+
+def NPC():
+	l = ['jeff', 'sauon', 'minato', 'yamada', 'tsuki', 'araragi', 'kitsune', 'kairi', 'namine', 'daigaijin', 'kero', 'yousuke', 'john smith', 'dean', 'sam', 'carrot', 'iggi', 'sameul vimes', 'navidson', 'ivan', 'daru', 'watanuki', 'yuko', 'shinji', 'asuka', 'langley', 'gendou', 'ritsuko', 'rei', 'mirai', 'touka', 'ken', 'haise', 'urie', 'washu', 'eto', 'kanto', 'furi', 'kuri', 'ginko', 'doumeki']
+	x = raw_input('talk? ')
+	if x == 'y':
+		talk = True
+		if talk == True:
+			x = raw_input('to whom? ')
+			print l
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			if x == 'jeff':
+				name = x
+				text = ['hello']
+				name = name
+				print '%s: ' % (name), text
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+			
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				if 'i have a favor to ask' in text:
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				if 'i have a favor to ask' in text:
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				if 'i have a favor to ask' in text:
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				if 'i have a favor to ask' in text:
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				if 'i have a favor to ask' in text:
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				if 'i have a favor to ask' in text:
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				if 'i have a favor to ask' in text:
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				if 'i have a favor to ask' in text:
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				if 'i have a favor to ask' in text:
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				if 'i have a favor to ask' in text:
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				if 'i have a favor to ask' in text:
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				if 'i have a favor to ask' in text:
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+		
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+					quest1()
+			elif x == 'sauon':
+				name = x
+				text = ['i have a favor to ask']
+				name = name
+				print '%s: ' % (name), text
+				
+				quest1()
+		
+				x = raw_input('end convo? ')
+				if x == 'y':
+						talk = False
+		elif talk == False:
+				pass
+	elif x == 'n':
+			pass
+		
+
+		
 		
 
 mnchr = char()
@@ -74,9 +367,9 @@ def shop1():
 	global gold
 	global inv
 	print 'shop:'
-	print '[stock: dagger(4atk, 5g) necklace(+7 mana, +2 atk, 28g), steel plated armor(+5 def, 8g), sword, axe, kunai, shuriken, metal, ]'
+	print '[stock: dagger(4atk, 5g) necklace(+7 mana, +2 atk, 28g), sword(+15atk, 20g), axe(+52atk, 35g), kunai(+3atk), shuriken(+2atk), metal(12g), katana(+20atk, 44g)]'
 	global stock1
-	stock1 = {'dagger':6, 'necklace':2, 'steel plated armor':4}
+	stock1 = {'dagger':100, 'necklace':25, 'sword':100, 'axe':100, 'kunai':100, 'shuriken':100, 'metal':60, 'katana':100}
 	print stock1
 	x = raw_input('buy or sell item? ')
 	if x == 'buy':
@@ -96,13 +389,103 @@ def shop1():
 			print 'inv: ', inv
 			print 'stock: ', stock1
 			gold_count()
+		elif b == 'axe':
+			if 'axe' in inv:
+				gold -= 35
+				inv['axe'] += 1
+				stock1['axe'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+			if 'axe' not in inv:
+				gold -= 35
+				inv['axe'] = 1
+				stock1['axe'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+		elif b == 'shuriken':
+			if 'shuriken' in inv:
+				gold -= 3
+				inv['shuriken'] += 1
+				stock1['shuriken'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+			if 'shuriken' not in inv:
+				gold -= 3
+				inv['shuriken'] = 1
+				stock1['shuriken'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+		elif b == 'kunai':
+			if 'kunai' in inv:
+				gold -= 5
+				inv['kunai'] += 1
+				stock1['kunai'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+			if 'kunai' not in inv:
+				gold -= 5
+				inv['kunai'] = 1
+				stock1['kunai'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+		elif b == 'metal':
+			if 'metal' in inv:
+				gold -= 15
+				inv['metal'] += 1
+				stock1['metal'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+			if 'metal' not in inv:
+				gold -= 15
+				inv['metal'] = 1
+				stock1['metal'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+		elif b == 'katana':
+			if 'katana' in inv:
+				gold -= 44
+				inv['katana'] += 1
+				stock1['katana'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+			if 'katana' not in inv:
+				gold -= 44
+				inv['katana'] = 1
+				stock1['katana'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+		elif b == 'sword':
+			if 'sword' in inv:
+				gold -= 20
+				inv['sword'] += 1
+				stock1['sword'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+			if 'sword' not in inv:
+				gold -= 20
+				inv['sword'] = 1
+				stock1['sword'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
 		elif b == 'necklace':
 			if 'necklace' in inv:
 				gold -= 28
 				inv['necklace'] += 1
 				stock1['necklace'] -=1
 			print 'inv: ', inv
-			print 'inv: ', inv
+			print 'stock: ', stock1
 			gold_count()
 			if 'necklace' not in inv:
 				gold -= 28
@@ -111,54 +494,138 @@ def shop1():
 			print 'inv: ', inv
 			print 'stock: ', stock1
 			gold_count()
-		elif b == 'steel plated armor':
-			if 'steel plated armor' in inv:
-				gold -= 8
-				inv['steel plated armor'] += 1
-				stock1['steel plated armor'] -= 1
-			print 'inv: ', inv
-			print 'stock: ', stock1
-			gold_count()
-			if 'steel plated armor' not in inv:
-				gold -= 8
-				inv['steel plated armor'] = 1
-				stock1['steel plated armor'] -= 1
-			print 'inv: ', inv
-			print 'stock: ', stock1
-			gold_count()
 		else:
 			pass
 	elif x == 'sell':
-		print 'stock: dagger(4atk, 5g) necklace(+7 mana, +2 atk, 28g), steel plated armor(+5 def, 8g)'
+		print 'shop:'
+		print 'stock: dagger(4atk, 5g) necklace(+7 mana, +2 atk, 28g), sword(+15atk, 20g), axe(+52atk, 35g), kunai(+3atk), shuriken(+2atk), metal(12g), katana(+20atk, 44g), upgrade weapon]'
 		print stock1
 		print 'inv: ', inv
 		s = raw_input('sell which item? ')
-		if s == 'dagger':
+		if b == 'dagger':
 			if 'dagger' in inv:
 				gold += 5
-				inv['dagger'] -= 1
-				stock1['dagger'] += 1
+				inv['dagger'] += 1
+				stock1['dagger'] -= 1
 			print 'inv: ', inv
 			print 'stock: ', stock1
 			gold_count()
-		elif s == 'necklace':
+			if 'dagger' not in inv:
+				gold += 5
+				inv['dagger'] = 1
+				stock1['dagger'] -=1
+			print 'inv: ', inv
+			print 'stock: ', stock1
+			gold_count()
+		elif b == 'axe':
+			if 'axe' in inv:
+				gold += 35
+				inv['axe'] += 1
+				stock1['axe'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+			if 'axe' not in inv:
+				gold += 35
+				inv['axe'] = 1
+				stock1['axe'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+		elif b == 'shuriken':
+			if 'shuriken' in inv:
+				gold += 3
+				inv['shuriken'] += 1
+				stock1['shuriken'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+			if 'shuriken' not in inv:
+				gold += 3
+				inv['shuriken'] = 1
+				stock1['shuriken'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+		elif b == 'kunai':
+			if 'kunai' in inv:
+				gold += 5
+				inv['kunai'] += 1
+				stock1['kunai'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+			if 'kunai' not in inv:
+				gold += 5
+				inv['kunai'] = 1
+				stock1['kunai'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+		elif b == 'metal':
+			if 'metal' in inv:
+				gold += 15
+				inv['metal'] += 1
+				stock1['metal'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+			if 'metal' not in inv:
+				gold += 15
+				inv['metal'] = 1
+				stock1['metal'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+		elif b == 'katana':
+			if 'katana' in inv:
+				gold += 44
+				inv['katana'] += 1
+				stock1['katana'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+			if 'katana' not in inv:
+				gold += 44
+				inv['katana'] = 1
+				stock1['katana'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+		elif b == 'sword':
+			if 'sword' in inv:
+				gold += 20
+				inv['sword'] += 1
+				stock1['sword'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+			if 'sword' not in inv:
+				gold += 20
+				inv['sword'] = 1
+				stock1['sword'] -= 1
+				print 'inv: ', inv
+				print 'stock: ', stock1
+				gold_count()
+		elif b == 'necklace':
 			if 'necklace' in inv:
 				gold += 28
-				inv['necklace'] -= 1
-				stock1['necklace'] +=1
+				inv['necklace'] += 1
+				stock1['necklace'] -=1
 			print 'inv: ', inv
 			print 'stock: ', stock1
 			gold_count()
-		elif s == 'steel plated armor':
-			if 'steel plated armor' in inv:
-				gold += 8
-				inv['steel plated armor'] -= 1
-				stock1['steel plated armor'] += 1
+			if 'necklace' not in inv:
+				gold += 28
+				inv['necklace'] = 1
+				stock1['necklace'] -=1
 			print 'inv: ', inv
 			print 'stock: ', stock1
 			gold_count()
 	else:
 		pass
+		
+
 		
 def craft():
 	global inv
@@ -172,7 +639,50 @@ def craft():
 				inv['feather'] -= 4
 				inv['stone'] -= 1
 				print inv
+			if 'wood' in inv and 'feather' in inv and 'stone' not in inv:
+				print 'you lack the neccecary items to craft this'
+		elif x == 'stew':
+			if 'meat' and 'bowl' and 'spoon' and 'cauliflower' and 'beans' and 'carrots' and 'soup' in inv:
+				inv['stew'] = 1
+				inv['meat'] -= 2
+				inv['spoon'] -= 1
+				inv['cauliflower'] -= 3
+				inv['beans'] -= 6
+				inv['soup'] -= 1
+				print inv
+			if 'meat' and 'bowl' and 'spoon' and 'cauliflower' and 'beans' and 'carrots' and 'soup' not in inv:
+				print 'you lack the neccecary items to craft this'
+		elif x == 'soup':
+			if 'broth' and 'vegetables' in inv:
+				inv['soup'] = 1
+				inv['broth'] -= 2
+				inv['vegetables'] -= 4
+				print inv
+			if 'broth' and 'vegetables' not in inv:
+				print 'you lack the neccecary items to craft this'
+		elif x == 'crystal sword':
+			if 'quartz' and 'metal' and 'binding stone' in inv:
+				inv['crystal sword'] = 1
+				inv['metal'] -= 2
+				inv['quartz'] -= 7
+				inv['binding stone'] -= 1
+				print inv
+			if 'quartz' and 'metal' and 'binding stone' not in inv:
+				print 'you lack the neccecary items to craft this'
+		elif x == 'osidian arrow':
+			if 'obsidian' and 'feather' and 'wood' in inv:
+				inv['wood'] -= 2
+				inv['obsidian'] -= 2
+				inv['festher'] -= 4
+				inv['obsidian arrow'] = 1
+				print inv
+			if 'obsidian' and 'feather' and 'wood' not in inv:
+				print 'you lack the neccecary items to craft this'
+	elif x == 'n':
+		pass
 				
+				
+
 def unlock():
 	l = ['door unlocked', 'door locked']
 	x = raw_input('> ')
@@ -188,11 +698,12 @@ def unlock():
 
 def chest1():
 	global inv
-	chest = {'cheese':3, 'key':8}
-	print chest
+	chest = {'cheese':3, 'key':8, 'cactus':1}
+	print 'chest: ', chest
+	print 'cheese: heals 5 hp, key: opens doors, cactus: the most tsundere of plants'
 	x = raw_input('take items? ')
 	if x == 'y':
-		if 'cheese' and 'key' in inv:
+		if 'cheese' and 'key' and 'cactus' in inv:
 			a = raw_input('which item? ')
 			if a == 'cheese':
 				inv['cheese'] += 3
@@ -202,7 +713,7 @@ def chest1():
 				chest['key'] -= 8
 			print 'inv: ', inv
 			print 'chest: ', chest
-		elif 'cheese' and 'key' not in inv:
+		elif 'cheese' and 'key' and 'cactus' not in inv:
 			l = raw_input('which item? ')
 			if l == 'cheese':
 				inv['cheese'] = 3
@@ -213,86 +724,100 @@ def chest1():
 			
 def is_equipped():
 	global inv
+	x = raw_input('equip bow and arrow? ')
+	if x == 'y':
+		if 'bow' in inv:
+			x = raw_input('which arrow? ')
+			if x == 'obsisian arrow':
+				if 'obsidian arrow' in inv:
+					mnchr.atk += 4
 	x = raw_input('equip weapon? ')
 	if x == 'y':
 		x = raw_input('which? ')
+		print inv
 		if x == 'dagger':
+			if 'dagger' in inv:
 				mnchr.atk += 4
 		elif x == 'sword':
-			mnchr.atk += 15
+			if 'sword' in inv:
+				mnchr.atk += 15
 		elif x == 'katana':
-			mnchr.atk += 20
+			if 'katana' in inv:
+				mnchr.atk += 20
 		elif x == 'axe':
-			mnchr.atk += 52
+			if 'axe' in inv:
+				mnchr.atk += 52
 		elif x == 'soul sword':
-			mnchr.atk += 36
+			if 'soul sword' in inv:
+				mnchr.atk += 36
 		elif x == 'bankai':
-			mnchr.atk += 78
+			if 'bankai' in inv:
+				mnchr.atk += 78
 		elif x == 'fire sword':
-			mnchr.atk += 32
+			if 'fire sword' in inv:
+				mnchr.atk += 32
 		elif x == 'ice sword':
-			mnchr.atk += 34
+			if 'ice sword' in inv:
+				mnchr.atk += 34
 		elif x == 'crystal sword':
-			mnchr.atk += 666
+			if 'crystal sword' in inv:
+				mnchr.atk += 666
 		elif x == 'shuriken':
-			mnchr.atk += 2
+			if 'shuriken' in inv:
+				mnchr.atk += 2
 		elif x == 'kunai':
-			mnchr.atk += 3
-		elif x == 'blade of existencial crisis':
-			mnchr.atk += 999
+			if 'kunai' in inv:
+				mnchr.atk += 3
+		elif x == 'void of existensial anguish sword':
+			if 'void of existensial anguish sword' in inv:
+				mnchr.atk += 999
+		
 		else:
 			pass
 	elif x == 'n':
 		pass
-	
-				
+#oelete the following note
+#obsisian, amethyst, emerald, quartz, opal
 
-def quest1():
-	global gold
-	print 'i need you to find my necklace, its an ancient familt heirloom'
-	x = raw_input('accept quest? ')
-	if x == 'y':
-		q = True
-		while q == True:
-			print 'find jeffs necklace'
-			break
-		if 'necklace' in inv:
-			q = False
-	if q == False:
-		print 'quest completed'
-		inv['necklace'] -= 1
-		print 'inv: ', inv
-		gold += 150
-		
 
-				
-
-def NPC():
-	text = ['hello']
-	x = raw_input('talk? ')
-	if x == 'y':
-		talk = True
-		if talk == True:
-			print 'jeff: ', text
-			if 'i have a favor to ask' in text:
-				quest1()
-			if 'i have a favor to ask' not in text:
-				x = raw_input('end convo? ')
-				if x == 'y':
-					talk = False
-		elif talk == False:
-				pass
-	elif x == 'n':
-		pass
 		
 def specitem():
-	while 'blue crystal necklace' in inv:
-		mnchr.hp += 7
-		if 'blue crystal necklace' not in inv:
-			mnchr.hp -=7
-			break
-	
+	global inv
+	x = raw_input('wear item? ')
+	if x == 'y':
+		x = raw_input('which item? ')
+		if x == 'blue crystal necklace':
+			while 'blue crystal necklace' in inv:
+				mnchr.hp += 7
+				print mnchr.hp
+				break
+				if 'blue crystal necklace' not in inv:
+					mnchr.hp -= 7
+	elif x == 'n':
+		pass
+			
+	x = raw_input('eat food? ')
+	if x == 'y':
+		x = raw_input('which food? ')
+		if x == 'cheese':
+			while 'cheese' in inv:
+				mnchr.hp += 5
+				print 'hp + 5', mnchr.hp
+				break
+			if 'cheese' not in inv:
+					mnchr.hp -= 5
+		elif x == 'soup':
+			while 'soup' in inv:
+				mnchr.hp += 8
+				print 'hp + 8', mnchr.hp
+				break
 		
+		elif x == 'stew':
+			while 'stew' in inv:
+				mnchr.hp += 15
+				break
+				
+
 def encounter():
 	global gold
 	global inv
@@ -336,12 +861,12 @@ def encounter():
 	while encounter == True:
 		x = raw_input('attack? ')
 		if x == 'y':
-			if 'dagger' or 'crystal sword' or 'bankai' or 'soul sword' or 'axe' or 'fire sword' or 'ice sword' or 'kunai' or 'shuriken' or 'katana' or 'sword' or 'blade of existencial crisis' in inv:
+			if 'dagger' or 'crystal sword' or 'bankai' or 'soul sword' or 'axe' or 'fire sword' or 'ice sword' or 'kunai' or 'shuriken' or 'katana' or 'sword' or 'blade of existencial crisis' or 'obsodian arrow' in inv:
 				is_equipped()
 				enemy.hpe -= mnchr.atk
 				print 'hp: ', enemy.hpe
 			
-			if 'dagger' or 'crystal sword' or 'bankai' or 'soul sword' or 'axe' or 'fire sword' or 'ice sword' or 'kunai' or 'shuriken' or 'katana' or 'sword' or 'blade of existencial crisis' not in inv:
+			if 'dagger' or 'crystal sword' or 'bankai' or 'soul sword' or 'axe' or 'fire sword' or 'ice sword' or 'kunai' or 'shuriken' or 'katana' or 'sword' or 'blade of existencial crisis' or 'obsisian arrow' not in inv:
 				enemy.hpe -= mnchr.atk
 				print 'hp: ', enemy.hpe
 				
@@ -350,14 +875,13 @@ def encounter():
 			
 		if x == 'n':
 			print 'you got away safely'
+			encounter = False
 		
 	if encounter == False:
 		print 'enemy slain'
 		gold += randint(0, 50)
 		gold_count()
-		if random.choice(l) == 'snek':
-			inv['snake skin'] = 1
-			print inv
+		
 	
 
 
@@ -372,13 +896,14 @@ def over_world():
 		print 'you go north, south, south, south'
 		map.append('nsss = 1st shop')
 		shop1()
+		print map
 	elif x == 'n' 's' 'e' 'w':
 		encounter()
+	elif x == 'n' 's' 'w' 'w':
+		chest1()
 		
-		
+over_world()
 
-	
-	
 def main_command():
 	x = raw_input('> ')
 	if x == 'map':
@@ -391,17 +916,10 @@ def main_command():
 		mnchr.heal()
 	elif x == 'cure':
 		mnchr.cure()
+	elif x == 'craft':
+		craft()
 		
+
 		
-
-NPC()
-over_world()
-encounter()
-
-	
-
-	
-
-	
+over_world()		
 		
-	
